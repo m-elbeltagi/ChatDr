@@ -1,0 +1,9 @@
+pandas
+numpy 
+pytorch
+tensorboard
+datasets
+transformers
+os
+pyarrow
+jupyter
