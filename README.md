@@ -10,4 +10,4 @@ In the meantime I used a model fine-tuned on SQuAD, then further finetuned speci
 This approach is definitely better than 1.0 version, as it works. It does seem to struggle with some types of questions, and overall a model just trained on SQuAD_v2 (like 'deepset/minilm-uncased-squad2' on Hugging Face) seems to output better quality answers.
 I think the solution to overcoming these shortcoming is a high quality medical dataset to fine-tune it further on this specific task. As I still haven't found a dataset like this I might create one manually, by coming up with the questions and the answers from some medical recod as context (not too large, maybe 1000 questions or so).
 
-![Screenshot](TB_dashboard_ChatDr_v2.png "ChatDr_v2 Training Metrics")
+![Screenshot](TB_dashboard_ChatDr_v2.png  "ChatDr_v2 Training Metrics")
