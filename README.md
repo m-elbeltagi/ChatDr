@@ -1,5 +1,5 @@
 # ChatDr
-This is a chat bot to answer questions about a patients' medical history. To use the model for inference, use the ChatDr_v1 file.
+This is a chat bot to answer questions about a patient's medical history. To use the model for inference, use the ChatDr_v1 file.
 In the (current) 1.0 version I attempted to use a generative approach by fine-tuning gpt-2 (schedule trained on a local GPU with early stopping) on some patient history medical records (the code is commented to explain each step). The training succeeded in that it produces medical sounding text related to the prompt (usually about the condition for example). The training metrics were monitored using TensorBoard (image below). The model weights and configuration files are available upon request (too large to upload here).
 
 ![Screenshot](TB_dashboard_ChatDr_v1.png "ChatDr_v1 Training Metrics")
